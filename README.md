@@ -1,9 +1,8 @@
 # eajax.js
  简化 ajax 的请求发送
 
-```
-		Example:
-
+### Example:
+```javascript
 		$ea.eJson({
 			async: true,			// 类型可以为 boolean 或者 String 的 true 或 false
 			method: "POST",			// 类型为字符串的 请求方式
@@ -32,4 +31,3 @@
 			password: "8848"
 		});
 ```
-
